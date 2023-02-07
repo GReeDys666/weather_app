@@ -1,0 +1,44 @@
+.weather-by-hour {
+    width: 100%;
+}
+
+.weather-by-hour__container {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+
+.weather-by-hour__container::-webkit-scrollbar {
+    width: 12px;               
+}
+
+.weather-by-hour__container::-webkit-scrollbar-track {
+    background: rgb(65, 87, 255);        
+}
+
+.weather-by-hour__container::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+  background: #d3cfe6;
+  border: 6px solid rgba(0, 0, 0, 0.2); 
+}
+
+.weather-by-hour__heading,
+.next-6-days__heading {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.weather-by-hour__item {
+    padding: 0.8em 0;
+    margin-left: 0.25em;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.15);
+    font-size: 1.125em;
+    text-align: center;
+}
+
+.weather-by-hour__hour {
+    margin-bottom: 0.5em;
+}

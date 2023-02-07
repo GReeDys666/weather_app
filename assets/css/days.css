@@ -1,0 +1,50 @@
+.next-6-days {
+    width: 100%;
+    margin-top: 1em;
+}
+
+.next-6-days>.heading {
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+.next-6-days__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.next-6-days__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0.3em;
+    padding: 0.8em 0;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.20);
+    font-size: 1.19em;
+    text-align: center;
+}
+
+#first-day {
+    display: none;
+}
+
+.days-icon {
+    width: 65px;
+}
+
+.next-6-days__date,
+.next-6-days__temp {
+    margin-bottom: 0.6em;
+}
+
+.next-6-days__date,
+.next-6-days__temp,
+.next-6-days__icon,
+.next-6-days__of,
+.next-6-days__wind {
+    width: 33.3%;
+    font-size: 0.95em;
+}

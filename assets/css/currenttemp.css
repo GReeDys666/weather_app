@@ -1,0 +1,51 @@
+.current-temperature {
+    display: flex;
+    margin-top: 0.25em;
+    width: 100%;
+}
+
+.current-temperature__icon-container {
+    flex-grow: 1.25;
+    text-align: center;
+}
+
+.current-temperature__icon {
+    width: 10.5em;
+}
+
+.current-temperature__content {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.current-temperature__content>.value {
+    font-size: 5.25em;
+    font-weight: 300;
+}
+
+
+.current-temperature__content>.summary {
+    margin-top: -0.5em;
+    margin-left: -0.6em;
+    text-align: center;
+    font-size: 1.125em;
+}
+
+.current-stats {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1em;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.current-stats__temp-max,
+.current-stats__temp-min,
+.current-stats__wind-speed,
+.current-stats__humidity,
+.current-stats__sunrise,
+.current-stats__sunset {
+    margin-top: 1em;
+    font-size: 1.44em;
+}

@@ -1,0 +1,9 @@
+.location-and-date {
+    width: 100%;
+}
+
+.location-and-date__location {
+    margin: 0;
+    font-size: 2em;
+    font-weight: 600;
+}

@@ -1,0 +1,64 @@
+@media screen and (min-width: 450px) {
+
+    .next-6-days__date,
+    .next-6-days__temp,
+    .next-6-days__icon,
+    .next-6-days__of,
+    .next-6-days__wind {
+        width: 16.666666%;
+        margin-bottom: initial;
+    }
+
+    .next-6-days__date {
+        order: -2;
+    }
+
+    .next-6-days__icon {
+        order: -1;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    body {
+        margin: 20px;
+    }
+
+    .current-stats {
+        margin-bottom: 1em;
+        padding-bottom: 0;
+        border-top: none;
+        border-bottom: none;
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .current-temperature,
+    .current-stats {
+        width: 50%;
+    }
+
+    .weather-by-hour {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .weather-by-hour__heading,
+    .next-6-days__heading {
+        font-size: 1.125em;
+    }
+}
+
+@media screen and (min-width: 880px) {
+    .weather-by-hour__item {
+        width: 6.05em;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .container {
+        width: 880px;
+        margin: 8px auto;
+        font-size: 1.1em;
+    }
+}

@@ -200,11 +200,4 @@ function getlocaleDate() {
 
 setInterval(getlocaleDate, 1000);
 
-fetch('https://rickandmortyapi.com/api/character')
-  .then((response) => response.json())
-  .then((data) => LookAtThis(data));
 
-function LookAtThis(data) {
-  console.log(data);
-  console.log(data.results[0].id);
-}

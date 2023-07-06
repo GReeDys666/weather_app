@@ -1,6 +1,6 @@
 // const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
 
-const API_KEY = '30cff0b97c5ec76bcab324f7405cb064';
+const API_KEY = '43f12a27e08dc18434382d62b62ec025';
 const API = 'b11d772481c444ee5e84f9dba50829ec';
 const months = [
   'January',
@@ -102,7 +102,6 @@ getHoursData = async () => {
 (function showsData() {
   getHoursData()
     .then((response) => {
-      console.log(response);
       showHoursData(response);
     })
     .catch((err) => {
@@ -200,3 +199,12 @@ function getlocaleDate() {
 }
 
 setInterval(getlocaleDate, 1000);
+
+fetch('https://rickandmortyapi.com/api/character')
+  .then((response) => response.json())
+  .then((data) => LookAtThis(data));
+
+function LookAtThis(data) {
+  console.log(data);
+  console.log(data.results[0].id);
+}
